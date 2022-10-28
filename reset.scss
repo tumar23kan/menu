@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul li a:hover{
+  --d:100%;
+  --t:0%;
+  transition:.3s background-size .3s  ;
+}

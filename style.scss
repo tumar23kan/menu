@@ -1,0 +1,25 @@
+@import "reset";
+body{
+  min-height:32rem ;
+  background: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  ul{
+    list-style: none;
+
+  li{
+    display:inline-block ;
+    padding: 1.3rem;
+    a{
+      text-decoration: none;
+      color: gold;
+      font-size: 2rem;
+      background: linear-gradient(#f64e66 0 0) var(--t,50%) 100% /var(--d,26%) 3px no-repeat;
+      transition: .3s,background-position .3s;
+
+      }
+    }
+  }
+}
+
