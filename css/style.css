@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul li a:hover {
+  --d:100%;
+  --t:0%;
+  transition: 0.3s background-size 0.3s;
+}
+
+body {
+  min-height: 32rem;
+  background: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body ul {
+  list-style: none;
+}
+body ul li {
+  display: inline-block;
+  padding: 1.3rem;
+}
+body ul li a {
+  text-decoration: none;
+  color: gold;
+  font-size: 2rem;
+  background: linear-gradient(#f64e66 0 0) var(--t, 50%) 100%/var(--d, 26%) 3px no-repeat;
+  transition: 0.3s, background-position 0.3s;
+}
+
+/*# sourceMappingURL=style.css.map */
